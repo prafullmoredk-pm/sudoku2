@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" rx="112" fill="#2563eb" />
+  <!-- 3x3 Sudoku grid representation -->
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round">
+    <!-- Grid outer frame -->
+    <rect x="76" y="76" width="360" height="360" rx="20" stroke-width="20" />
+    <!-- Major 3x3 dividers -->
+    <line x1="196" y1="76" x2="196" y2="436" stroke-width="16" />
+    <line x1="316" y1="76" x2="316" y2="436" stroke-width="16" />
+    <line x1="76" y1="196" x2="436" y2="196" stroke-width="16" />
+    <line x1="76" y1="316" x2="436" y2="316" stroke-width="16" />
+    <!-- Minor internal lines -->
+    <line x1="116" y1="76" x2="116" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="156" y1="76" x2="156" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="236" y1="76" x2="236" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="276" y1="76" x2="276" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="356" y1="76" x2="356" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="396" y1="76" x2="396" y2="436" stroke-width="6" stroke-opacity="0.4" />
+    
+    <line x1="76" y1="116" x2="436" y2="116" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="76" y1="156" x2="436" y2="156" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="76" y1="236" x2="436" y2="236" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="76" y1="276" x2="436" y2="276" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="76" y1="356" x2="436" y2="356" stroke-width="6" stroke-opacity="0.4" />
+    <line x1="76" y1="396" x2="436" y2="396" stroke-width="6" stroke-opacity="0.4" />
+  </g>
+  <!-- Stylized numbers in accent colors -->
+  <text x="136" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" fill="#fde047" text-anchor="middle" dominant-baseline="middle">5</text>
+  <text x="256" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="86" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">9</text>
+  <text x="376" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" fill="#67e8f9" text-anchor="middle" dominant-baseline="middle">2</text>
+</svg>
