@@ -105,16 +105,21 @@ Sudoku players use pencil marks (candidate numbers) to track possibilities.
 
 ---
 
-## 5. How to Run Locally
+## 5. How to Run & Deploy
 
-1. Open `index.html` directly in any web browser (Safari, Chrome, Edge, Firefox):
+### Local Execution
+1. Open `index.html` directly in any web browser:
    ```bash
-   open index.html # On macOS
+   open index.html
    ```
-2. Or serve via any local HTTP server (for full PWA Service Worker testing):
+2. Or serve locally with any HTTP server (e.g. for PWA Service Worker testing):
    ```bash
-   npx serve .
-   # or
-   python3 -m http.server 8000
+   python3 -m http.server 8080
    ```
-3. Open `http://localhost:8000` and install the app or switch to offline mode in DevTools!
+
+### Vercel Deployment
+The repository is configured with `vercel.json` for optimal static caching and PWA service worker header handling:
+- **Option 1 (One-click Web Deploy)**:
+  Import repository `https://github.com/prafullmoredk-pm/sudoku2` directly in the Vercel Dashboard.
+- **Option 2 (Vercel CLI)**:
+  Run `npx vercel` or `npx vercel --prod` in the project directory.
